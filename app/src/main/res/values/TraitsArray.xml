@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <array name="ARRAY_EXTROVERSION"
+        >
+        <item name="Low"><b>You scored very low.</b>\n\nAccording to your answers, you think of yourself as a quiet and withdrawn person. You might find sometimes people tiring. You don\'t find yourself needing
+        </item>
+        <item name="Lowish"> <b>You scored lower than average.</b>\n\nAccording to your responses, You might avoid large parties. You don\'t find very much fun in them. You prefer relaxed and low-key social encounters with a few close friends.
+        </item>
+        <item name="Highish"> <b>You scored higher than average.</b>\n\nAccording to your responses, you find enjoyment in social situations, and actively seek them. Overall however, these situations are not everything. Every once in a while you will find it pleasant to step back for some time and have a quiet night in.
+        </item>
+        <item name="High"> <b>You scored very high.</b>\n\nAccording to your answers, you actively seek out social occasions. You enjoy crowds and especially talking with a big group of people. You think of yourself as energetic and active.
+        </item>
+        <item name ="middle"><b>You scored in the middle.</b>\n\nAccording to your answers, you can sometimes seek social situations. You might enjoy crowds and big groups of people, but you also like the closeness of more intimate social company.
+
+        </item>
+    </array>
+
+    <array name="ARRAY_AGREEABLENESS"
+        >
+        <item name="Low"> <b>You scored very low.</b>\n\nAccording to your responses, you might find it very easy to point out when something is wrong disregarding what other people feel. Many people might think of you as tough and uncompromising. You are more willing to make difficult decisions when it is necessary to do so.
+
+        </item>
+        <item name="Lowish"> <b>You scored lower than average.</b>\n\nAccording to your answers, you tend to be suspicious of individuals and their possible motivations. You seem to think of yourself as an individual who can have difficulty getting along when people first meet you. As time goes by, you might find that as your relationships get more \'warm\' , you still tell it how it is, regardless of what others think.
+
+        </item>
+        <item name="Highish"> <b>You scored higher than average.</b>\n\nAccording to your responses, you find yourself getting along with most people easily. You are friendly and considerate. You think people to be generally decent, well-intentioned, and honest.
+
+        </item>
+        <item name="High"> <b>You scored very high.</b>\n\nAccording to your responses, you are considerate, generous, friendly, and helpful. You believe that the majority of other people are decent and trustworthy. You think of yourself as someone who is extremely easy to get along with.
+
+        </item>
+        <item name ="middle"><b>You scored in the middle.</b>\n\nAccording to your answers, you can sometimes be suspicious of people\'s intentions. Overall you consider yourself to be generous, helpful, and friendly.
+
+        </item>
+    </array>
+
+    <array name="ARRAY_CONSCIENTIOUSNESS"
+        >
+        <item name="Low"> <b>You scored very low.</b>\n\nAccording to your answers you think of yourself as whimsical and impulsive. You might think of yourself as colorful, quirky, and  very fun to be with!! You describe yourself as someone that feels that sometimes decisions ought to be made in haste, and that you will make them faster than most.
+
+        </item>
+        <item name="Lowish"> <b>You scored lower than average.</b>\n\nYou are spontaneous and fun to be around. You can persist through life and plan when life requires you to do so. From the way you responded, it seems that considering which situation you find yourself in, you can make fast and deliberate decisions for longer if it is required.
+
+        </item>
+        <item name="Highish"> <b>You scored higher than average.</b>\n\nFrom the way you responded you are reliable and prepared to face challenges in life. You seem to think of yourself as someone who achieves success through persistence, and who avoids foreseeable unnecessary trouble through proper planning.
+
+        </item>
+        <item name="High"> <b>You scored very high.</b>\n\nYou seem to think of yourself as someone who is a perfectionist.You like to plan everything to the last detail and seeing your plans to fruition. You are reliable and very successful.
+
+        </item>
+        <item name ="middle"><b>You scored in the middle.</b>\n\n You consider yourself to be someone who does not necessarily have a great deal of discipline. You enjoy a good challenge every once in a while. Sometimes you are reliable, but don\'t necessarily look for greater responsibility.
+
+        </item>
+    </array>
+
+    <array name="ARRAY_NEUROTICISM"
+        >
+        <item name="Low"><b>You scored very low.</b>\n\nAccording to your responses, you come across as very resilient and calm, and you are not someone who gets upset or stressed easily. You rarely react with negative emotions, and even when you are somewhat anxious about something, the feeling quickly dissipates.
+
+        </item>
+        <item name="Lowish"> <b>You scored lower than average.</b>\n\nAccording to your responses, you think of yourself as a mostly calm and stable individual. The way you come across is as someone who rarely gets really bothered by things. When things do get under your skin however, the negative emotions tend to dissipate fast.
+        </item>
+        <item name="Highish"> <b>You scored higher than average.</b>\n\nAccording to your answers, you seem to think of yourself as a generally calm person. You can come across as someone who can be emotional at times, or sometimes stressed out by some experiences, however overall your feelings tend to be managed according to the situation.
+
+        </item>
+        <item name="High"> <b>You scored very high.</b>\n\nAccording to your responses, you are not a big fan of stressful situations. You tend to not react well to these. As a result, you might worry more about them than most people. On the other hand, there is a very genuine emotional depth in you that others don\'t have.
+
+        </item>
+        <item name ="middle"><b>You scored in the middle.</b>\n\n According to your answers, you don \'t always react negatively to stressful situations but sometimes things can easily get under your skin. You can sometimes come across as bothered by things, but sometimes you can come across as very calm.
+
+        </item>
+    </array>
+
+    <array name="ARRAY_OPENNESS"
+        >
+        <item name="Low"> <b>You scored very low.</b>\n\nAccording to your answers, you love things that are straight-forward. You might think of yourself as down-to-earth and prefer things to be simple. You might think that life is easier when there are no unnecessary changes. Art and ideology is of not much importance and practicality to you. On the other hand, tradition is important.
+
+        </item>
+        <item name="Lowish"> <b>You scored lower than average.</b>\n\nAccording to your answers, you prefer practicality over idealism and irresolute imagination. You are not extremely conservative, but you are certainly more conservative than most people. You seem to think of yourself as an individual who dislikes unnecessary complexity, and prefers the familiar from what you would find as abnormal and unfamiliar.
+
+        </item>
+        <item name="Highish"> <b>You scored higher than average.</b>\n\nAccording to your responses, you seem to think of yourself as someone who is somewhat intellectually curious and appreciative of aesthetic experiences. You might think of yourself having a vivid imagination, and higher creativity than most other people you know.
+
+        </item>
+        <item name="High"> <b>You scored very high.</b>\n\nAccording to your answers, you think of yourself as highly intellectually curious. You are  more sensitive to aesthetic perceptions and beauty than most people are. You might think of your beliefs to be individualistic and tend to lean towards unconventional modes of looking at things. You love anything that takes your imagination to exciting places.
+
+        </item>
+        <item name ="middle"><b>You scored in the middle.</b>\n\nAccording to your answers, you enjoy aesthetic and intellectual ventures, but you sometimes might find them useless and pretentious. You find your imagination and creativity to manifest in some situations, but not all the time.
+        </item>
+    </array>
+
+
+
+
+</resources>

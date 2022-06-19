@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">AdviseMe</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+
+    <string name="login_txt1">Have an account?</string>
+    <string name="login_txt2"><u>Login</u></string>
+
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="sign_up_text2"><u>Sign Up</u>.</string>
+
+    <string name="nameerror">Enter a valid name</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="err_password">Enter a valid password</string>
+    <string name="err_password_confirmation">Password did not match</string>
+
+
+    <string name="sign_up_text1">Dont have an account?</string>
+    <string name="report_question">Report Question</string>
+
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_msg">Cancel</string>
+
+
+    <string name="report">SingleChoiceDialog</string>
+
+    <string-array name="shopping_item">
+        <item>Onion</item>
+        <item>Sausage</item>
+        <item>Milk</item>
+        <item>Garlic</item>
+        <item>Beef</item>
+        <item>Veggies</item>
+        <item>Olive</item>
+        <item>Cheese</item>
+        <item>Tuna</item>
+        <item>Mushrooms</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+
+
+
+
+    <string name ="ad_unit">your_advertisment_id</string>
+
+
+    <string name="title_activity_results">ResultsActivity</string>
+    <string name="Results"><u>Results</u></string>
+    <string name="learn_big_5"><u>LEARN ABOUT BIG-5</u></string>
+    <string name="Extroversion">Extroversion</string>
+    <string name="Agreeableness">Agreeableness</string>
+    <string name="Conscientiousness">Conscientiousness</string>
+    <string name="Neuroticism">Neuroticism</string>
+    <string name="Openness">Openness</string>
+
+    <string name="Extroversion_Desc">Low scorers tend to be shutins.\n\nHigh scorers tend to be more outgoing and social.</string>
+    <string name="Agreeableness_Desc">Low scorers tend to be more critical and aggressive.\n\nHigh scorers are more friendly and optimistic.</string>
+    <string name="Conscientiousness_Desc">Low scorers are more impulsive and disorganized.\n\nHigh scorers are more careful and diligent.</string>
+    <string name="Neuroticism_Desc">Low scorers are more emotionally stable.\n\n High scorers are less emotionally stable.</string>
+    <string name="Openness_Desc">Low scorers tend to be traditional and conventional.\n\nHigh scorers tend to like novelty, fantasy, and are more likely to be intellectually curious.</string>
+
+    <!-- strings.xml -->
+    <string name="personality">
+        Personality App</string>
+
+
+    <string name="app_title"><u>Personality App</u></string>
+    <string name="Instructions">
+        Intro: The Big Five comes in many varieties, and it\'s not associated with any particular test. This test uses the Big-Five Factor Markers from the International Personality Item Pool, developed by Goldberg (1992), and the "mini-ipip" test developed by Donnellan, M. Brent, et al.(2006).\u000D\n\u000D\nAnswer honestly in how you see yourself NOW, and NOT in the future. Answers are not correct or incorrect. No personality profile is necessarily less or more desirable in relation to another one\u000D\n\u000D\nParticipation: Your use of this tool should be for educational or entertainment purposes only. The results of this test are not psychological or psychiatric advice of any kind and come with no guarantee of accuracy or fitness for a particular purpose.
+    </string>
+
+    <integer name="version_number">
+        2
+    </integer>
+
+    <string name="version">1.1</string>
+
+    <string name="start">Start</string>
+
+
+
+    <string name="eadviser">E-Adviser is a personality assessment tool that uses the Big Five Personality Assessment Test to predicts the personality traits of an advisee and suggests to him/her the right career advice based on his/her personality traits. </string>
+
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, an sit fugit officiis deserunt, audiam disputando at sit. Eu mel expetenda voluptatibus. Ius no accusam scripserit.\n\n Sea error iracundia ne, duo ne dicat partem sententiae. Nibh admodum facilisi ius in. Ius legere intellegam ei, in zril deserunt qui.At alii audire scripta mea, errem disputando quo in.\n\n Elit vocent legimus cum ei. Eu nonumes eligendi pericula sit. Ceteros omnesque facilisis id vix, at dico choro perpetua est, et dolore oblique vituperata qui. \n\nLorem ipsum dolor sit amet, an sit fugit officiis deserunt, audiam disputando at sit. Eu mel expetenda voluptatibus. Ius no accusam scripserit.\n\n Sea error iracundia ne, duo ne dicat partem sententiae. Nibh admodum facilisi ius in. Ius legere intellegam ei, in zril deserunt qui.At alii audire scripta mea, errem disputando quo in.\n\n Elit vocent legimus cum ei. Eu nonumes eligendi pericula sit. Ceteros omnesque facilisis id vix, at dico choro perpetua est, et dolore oblique vituperata qui.\n\nLorem ipsum dolor sit amet, an sit fugit officiis deserunt, audiam disputando at sit. Eu mel expetenda voluptatibus. Ius no accusam scripserit.\n\n Sea error iracundia ne, duo ne dicat partem sententiae. Nibh admodum facilisi ius in. Ius legere intellegam ei, in zril deserunt qui.At alii audire scripta mea, errem disputando quo in.\n\n Elit vocent legimus cum ei. Eu nonumes eligendi pericula sit. Ceteros omnesque facilisis id vix, at dico choro perpetua est, et dolore oblique vituperata qui. \n\nLorem ipsum dolor sit amet, an sit fugit officiis deserunt, audiam disputando at sit. Eu mel expetenda voluptatibus. Ius no accusam scripserit.\n\n Sea error iracundia ne, duo ne dicat partem sententiae. Nibh admodum facilisi ius in. Ius legere intellegam ei, in zril deserunt qui.At alii audire scripta mea, errem disputando quo in.\n\n Elit vocent legimus cum ei. Eu nonumes eligendi pericula sit. Ceteros omnesque facilisis id vix, at dico choro perpetua est, et dolore oblique vituperata qui.</string>
+    <string name="historty_big5">Several independent sets of researchers discovered and defined the five broad traits based on empirical, data-driven research. Ernest Tupes and Raymond Christal advanced the initial model, based on work done at the U.S. Air Force Personnel Laboratory in the late 1950s.1 J.M. Digman proposed his five factor model of personality in 19902, and Goldberg extended it to the highest level of organizations in 1993.3 In a personality test, the Five Factor Model or FFM4 and the Global Factors of personality5 may also be used to reference the Big Five traits.</string>
+    <string name="big5_traits">Human resources professionals often use the Big Five personality dimensions to help place employees. That is because these dimensions are considered to be the underlying traits that make up an individual’s overall personality.</string>
+    <string name="big5_traits2">The Big Five personality traits are:</string>
+
+    <string name="openness">Openness:</string>
+    <string name="openness_1">People who like to learn new things and enjoy new experiences usually score high in openness. Openness includes traits like being insightful and imaginative and having a wide variety of interests.</string>
+
+    <string name="conscientiousness">Conscientiousness :</string>
+    <string name="conscientiousness1"> People that have a high degree of conscientiousness are reliable and prompt. Traits include being organized, methodic, and thorough.</string>
+
+    <string name="extraversion">Extraversion:</string>
+    <string name="extraversion1"> Extraverts get their energy from interacting with others, while introverts get their energy from within themselves. Extraversion includes the traits of energetic, talkative, and assertive.</string>
+
+    <string name="agreeableness">Agreeableness:</string>
+    <string name="agreeableness1"> These individuals are friendly, cooperative, and compassionate. People with low agreeableness may be more distant. Traits include being kind, affectionate, and sympathetic.</string>
+
+    <string name="neuroticism">Neuroticism:</string>
+    <string name="neuroticism1"> Neuroticism is also sometimes called Emotional Stability. This dimension relates to one’s emotional stability and degree of negative emotions. People that score high on neuroticism often experience emotional instability and negative emotions. Traits include being moody and tense.</string>
+
+    <string name="openness_advice">Careers and Openness trait</string>
+    <string name="openness_advice1">Having a high level of Openness is important in jobs that require creative thinking and a flexible attitude. Jobs such as advertising, research, and other artistic occupations all benefit from high openness. A person who scores low in openness on a career test may excel in jobs that involve routine work and do not require creativity.</string>
+
+    <string name="agreeableness_advice">Careers and Agreeableness trait</string>
+    <string name="agreeableness_advice1">Agreeableness is an obvious advantage for building teams and maintaining harmony on the work floor. It’s a fact that agreeable people are more likeable than disagreeable people. On the other hand, agreeableness may not be useful in some occupational situations that require difficult or objective decisions. People who score low on agreeableness in a personality test often make excellent scientists, critics, or soldiers.</string>
+
+    <string name="neuroticism_advice">Careers and Neuroticism trait</string>
+    <string name="neuroticism_advic1">A person who has a high level of Neuroticism or Emotional Stability is preferred in most professions because they have more control over their emotions at work. Employees with low emotional stability may be more easily distracted from their work, by deadlines, personal situations, and pressure.</string>
+
+    <string name="extraversion_advice">Careers and Extraversion trait</string>
+    <string name="extraversion_advice1">Different jobs require different levels of Extraversion. A high level of extraversion may be useful for jobs that require a great deal of interaction with other people, like public relations, teaching, and sales. Positions that are more focused on working independently and alone may be more suited to individuals with a lower level of extraversion.</string>
+
+    <string name="conscientiousness_advice">Careers and Conscientiousness trait</string>
+    <string name="conscientiousness_advice1">A high score of Conscientiousness in a career test is an important indicator of success. One reason is that this domain includes the trait known as need for achievement. These individuals are dependable, organized, and persevere, which means they will accomplish their professional goals. Research shows that the conscientiousness personality trait relates to job performance across different types of occupations. That means that a person who scores high in conscientiousness on a personality test will be better suited to perform a job.</string>
+
+
+    <string name="conscientiousness_careers">Lawyer, Doctor, Scientist, Engineer, CEO.</string>
+    <string name="extraversion_careers">Anchor, News Presenter, Radio Jockey, Public Speaking, Sales and Entertainment.</string>
+    <string name="agreeableness_careers">Nursing, Social work, Counseling</string>
+    <string name="neuroticism_careers">Writer, Artist, Accountant, Florist, Yoga Instructor, Freelance Designer</string>
+    <string name="openness_careers">Entrepreneur, Artist, Actor, Writer, Musician</string>
+
+    <string name="high_conscientiousness_careers">Because you have high Conscientiousness</string>
+    <string name="high_extraversion_careers">Because you have high Extraversion</string>
+    <string name="high_agreeableness_careers">Because you have high Agreeableness</string>
+    <string name="high_neuroticism_careers">Because you have high Neuroticism</string>
+    <string name="high_openness_careers">Because you have high Openness</string>
+
+
+
+</resources>

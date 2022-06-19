@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:padding="7dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Results"
+            android:background="@drawable/border_deco"
+            android:textSize="32sp"
+            android:textColor="@color/greenPrimary"
+            android:layout_marginTop="16dp"
+
+            android:layout_marginBottom="16dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <com.github.mikephil.charting.charts.RadarChart
+            android:id="@+id/RADAR_CHART"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="400dp"></com.github.mikephil.charting.charts.RadarChart>
+
+
+
+
+        <TextView
+            android:id="@+id/TEXT_VIEW_EXTRAVERSION"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Extroversion"
+            android:textSize="24sp"
+            android:textColor="@color/greenPrimary"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+
+        <com.github.mikephil.charting.charts.HorizontalBarChart
+            android:id="@+id/HORIZONTAL_BAR_CHART_1"
+            android:layout_width="match_parent"
+            android:layout_height="75dp">
+        </com.github.mikephil.charting.charts.HorizontalBarChart>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TEXT_VIEW_EXTROVERSION_DESCRIPTION"
+            android:textSize="16sp"
+
+            />
+        <TextView
+            android:id="@+id/TEXT_VIEW_AGREEABLENESS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Agreeableness"
+            android:textSize="24sp"
+            android:textColor="@color/greenPrimary"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <com.github.mikephil.charting.charts.HorizontalBarChart
+            android:id="@+id/HORIZONTAL_BAR_CHART_2"
+            android:layout_width="match_parent"
+            android:layout_height="75dp">
+        </com.github.mikephil.charting.charts.HorizontalBarChart>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/TEXT_VIEW_AGREEABLENESS_DESCRIPTION"
+
+            />
+
+        <TextView
+            android:id="@+id/TEXT_VIEW_CONSCIENTIOUSNESS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Conscientiousness"
+            android:textSize="24sp"
+            android:textColor="@color/greenPrimary"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+
+        <com.github.mikephil.charting.charts.HorizontalBarChart
+            android:id="@+id/HORIZONTAL_BAR_CHART_3"
+            android:layout_width="match_parent"
+            android:layout_height="75dp">
+        </com.github.mikephil.charting.charts.HorizontalBarChart>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TEXT_VIEW_CONSCIENTIOUSNESS_DESCRIPTION"
+
+            />
+
+        <TextView
+            android:id="@+id/TEXT_VIEW_Neuroticism"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Neuroticism"
+            android:textColor="@color/greenPrimary"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+
+        <com.github.mikephil.charting.charts.HorizontalBarChart
+            android:id="@+id/HORIZONTAL_BAR_CHART_4"
+            android:layout_width="match_parent"
+            android:layout_height="75dp">
+        </com.github.mikephil.charting.charts.HorizontalBarChart>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TEXT_VIEW_NEUROTICISM_DESCRIPTION"
+
+
+
+            />
+        <TextView
+            android:id="@+id/TEXT_VIEW_Openness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Openness"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/greenPrimary"
+            android:layout_marginBottom="16dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+
+
+        <com.github.mikephil.charting.charts.HorizontalBarChart
+            android:id="@+id/HORIZONTAL_BAR_CHART_5"
+            android:layout_width="match_parent"
+            android:layout_height="75dp">
+
+        </com.github.mikephil.charting.charts.HorizontalBarChart>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TEXT_VIEW_OPENNESS_DESCRIPTION"
+            android:layout_marginBottom="20dp"
+
+
+            />
+
+        <Button
+            android:id="@+id/advice_button"
+            android:text="Suggest Career"
+            android:textStyle="bold"
+
+            android:layout_width="200dp"
+            android:height="40dp"
+            android:background="@drawable/rounded_btn"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+
+            />
+
+        <Button
+            android:id="@+id/save_button"
+            android:text="Save Results"
+            android:textStyle="bold"
+            android:layout_width="200dp"
+            android:height="40dp"
+            android:background="@drawable/rounded_btn"
+            android:drawableLeft="@drawable/ic_save"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+
+            />
+
+        <Button
+            android:id="@+id/share_results_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:height="40dp"
+            android:drawableLeft="@drawable/share_icon"
+            android:background="@drawable/rounded_btn"
+            android:text="Share Results"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="30dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
+
+
+
+</LinearLayout>
+

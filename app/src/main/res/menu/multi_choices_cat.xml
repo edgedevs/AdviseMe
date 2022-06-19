@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <item
+        android:id="@+id/matric"
+        android:title="Matric"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/intermt"
+
+        app:showAsAction="always"
+        android:title="Intermediat" />
+
+    <item
+        android:id="@+id/bachlor"
+        android:title="Bachlor"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ecat"
+
+        app:showAsAction="always"
+        android:title="ECAT" />
+
+    <item
+        android:id="@+id/career"
+
+        app:showAsAction="always"
+        android:title="Career" />
+
+    <item
+        android:id="@+id/medical"
+
+        app:showAsAction="always"
+        android:title="Medical" />
+
+
+    <item
+        android:id="@+id/pak_army"
+        android:color="@color/red_real"
+        android:state_focused="true"
+        app:showAsAction="always"
+        android:title="Pak Army" />
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array
+        name="QuestionArray"
+        >
+        <item name="E1">- Am the life of the party</item>
+        <item name="A1">- Sympathize with Others</item>
+        <item name="C1">- Get Chores done right away</item>
+        <item name="N1">- have frequent mood swings</item>
+        <item name="I1">- have a vivid imagination</item>
+        <item name="E2">- Do not talk a lot</item>
+        <item name="A2">- I am Not interested in other peoples problems</item>
+        <item name="C2">- Often forget to put things back in their proper place</item>
+        <item name="N2">- I am relaxed most of the time</item>
+        <item name="I2">- I am not interested in abstract ideas</item>
+        <item name="E3">- Talk to a lot of different people at parties</item>
+        <item name="A3">- Feel others emotions</item>
+        <item name="C3">- I like order</item>
+        <item name="N3">- I Get Upset Easily</item>
+        <item name="I3">- I have difficulty understanding abstract ideas</item>
+        <item name="E4">- Keep in the background</item>
+        <item name="A4">- I am not really interested in others</item>
+        <item name="C4">- I make a mess of things</item>
+        <item name="N4">- Seldom feel blue</item>
+        <item name="I4">- Do not have a good imagination</item>
+    </string-array>
+
+
+</resources>

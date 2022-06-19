@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="280dp"
+    android:layout_marginTop="2dp"
+    app:cardBackgroundColor="@android:color/white"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:cardPreventCornerOverlap="false"
+                android:elevation="8dp"
+                app:cardCornerRadius="10dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView_ans"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_baseline_person_24" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_name_ans"
+                android:textColor="@android:color/black"
+                android:text="Name"
+                android:paddingStart="3dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_time_ans"
+                android:textColor="@color/greenPrimary"
+                android:textAlignment="viewEnd"
+                android:text="Time"
+                android:textStyle="bold"
+                android:paddingStart="10dp"
+                android:textSize="8sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Answer"
+            android:textColor="@android:color/black"
+            android:textSize="11sp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv_ans"/>
+        <ImageView
+            android:id="@+id/image_Reply_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            />
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical|right">
+
+
+
+            <LinearLayout
+                android:id="@+id/ans_upvote_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:clickable="true">
+
+                <ImageButton
+                    android:id="@+id/ans_upvote_ico"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:padding="3dp"
+                    android:clickable="false"
+                    android:src="@drawable/ans_ic_upvote" />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ans_upvote_counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="7dp"
+                android:clickable="true"
+                android:padding="4dp"
+                android:text="0"
+                android:textColor="@color/grey"
+                android:textSize="12sp" />
+
+            <ImageButton
+                android:id="@+id/vertical_icon_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="3dp"
+                android:src="@drawable/ic_verticle_line" />
+
+
+            <LinearLayout
+                android:id="@+id/ans_downvote_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <ImageButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ans_downvote_ico"
+                    android:background="@android:color/transparent"
+                    android:clickable="false"
+                    android:padding="3dp"
+                    android:src="@drawable/ans_ic_downvote" />
+                <TextView
+                    android:id="@+id/ans_downvote_counter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:clickable="true"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textColor="@color/grey"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ans_share_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:layout_marginRight="7dp"
+                android:orientation="vertical">
+
+                <ImageButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:background="@android:color/transparent"
+                    android:padding="3dp"
+                    android:src="@drawable/ans_share_icon" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ans_more_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:clickable="true"
+                 >
+
+                <ImageButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:padding="4dp"
+                    android:clickable="false"
+                    android:src="@drawable/ans_more_icon" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

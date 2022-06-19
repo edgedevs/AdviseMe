@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="4dp"
+        android:id="@+id/cv_logout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:drawableStart="@drawable/ic_baseline_power_settings_new_24"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/ic_baseline_power_settings_new_24"
+            android:paddingLeft="10dp" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="4dp"
+        android:id="@+id/request_adviser_acc_CV">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adviser Verification"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:drawableStart="@drawable/ic_baseline_verified_24"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/ic_baseline_power_settings_new_24"
+            android:paddingLeft="10dp" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="4dp"
+        android:id="@+id/cv_privacy">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Privacy"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:drawableStart="@drawable/bottom_sheet_lock"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/ic_baseline_power_settings_new_24"
+            android:paddingLeft="10dp" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="4dp"
+        android:id="@+id/cv_delete">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Account"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:drawableStart="@drawable/ic_baseline_delete_24"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/ic_baseline_power_settings_new_24"
+            android:paddingLeft="10dp" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="4dp"
+        android:id="@+id/about_app">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:drawableStart="@drawable/ic_about_app"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/ic_about_app"
+            android:paddingLeft="10dp" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="4dp"
+
+        android:id="@+id/give_feedback_item">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Give FeedBack"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:drawableStart="@drawable/ic_feedback_icon"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/ic_feedback_icon"
+            android:paddingLeft="10dp" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="4dp"
+        android:id="@+id/privacy_policy_item">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terms and Conditions"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:drawableStart="@drawable/ic_privacy_icon"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/ic_privacy_icon"
+            android:paddingLeft="10dp" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="4dp"
+        android:id="@+id/share_app_item">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share App"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:drawableStart="@drawable/icon_share_app"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/icon_share_app"
+            android:paddingLeft="10dp" />
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="AnswerArray"
+        >
+
+        <item name="Disagree_Heavily">Disagree Heavily</item>
+        <item name="Disagree">Disagree</item>
+        <item name="Neither">Neither</item>
+        <item name="Agree">Agree</item>
+        <item name="Agree_Heavily">Agree Heavily</item>
+    </string-array>
+</resources>
+

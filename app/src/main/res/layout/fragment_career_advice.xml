@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="@color/greenPrimary"
+            app:titleEnabled="false">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/career_title_image"
+                app:layout_collapseMode="parallax"
+                />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+
+
+                app:title="Career Advice"/>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:paddingTop="32dp"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/high_careers_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGrayDark"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:padding="7dp"
+                android:background="@drawable/border_deco"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/trait_image_id"
+                android:layout_width="290dp"
+
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="290dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image_png_7"
+                app:layout_collapseMode="parallax"
+                />
+
+            <TextView
+                android:id="@+id/trait_career_title_tv_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGrayDark"
+                android:hint="trait advice"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/trait_career_desc_tv_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGrayDark"
+                android:layout_marginTop="5dp"
+                android:hint="trait advice desc"
+
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/careers_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGrayDark"
+                android:text="Suggested Careers:"
+                android:layout_marginTop="15dp"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/careers_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGrayDark"
+                android:hint="careers descs"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="30dp"/>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <iammert.com.view.scalinglib.ScalingLayout
+        android:id="@+id/scalingLayout"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        app:radiusFactor="1"
+        android:clickable="true"
+        android:layout_gravity="center_horizontal"
+        android:stateListAnimator="@animator/sl_state_animator"
+        app:layout_behavior="iammert.com.view.scalinglib.ScalingLayoutBehavior">
+
+
+
+    </iammert.com.view.scalinglib.ScalingLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

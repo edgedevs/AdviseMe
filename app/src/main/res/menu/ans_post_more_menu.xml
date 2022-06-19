@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <item
+        android:id="@+id/edit_ans"
+        android:title="Edit"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bookmark_ans"
+
+        app:showAsAction="always"
+        android:title="Bookmark" />
+
+    <item
+        android:id="@+id/report_ans"
+
+        app:showAsAction="always"
+        android:title="Report" />
+    <item
+        android:id="@+id/delete_ans"
+
+        app:showAsAction="always"
+        android:title="Delete" />
+
+</menu>

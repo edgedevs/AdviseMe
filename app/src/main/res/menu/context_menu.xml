@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/q_downvote"
+
+        app:showAsAction="always"
+        android:title="Downvote" />
+
+    <item
+        android:id="@+id/bookmark_question"
+
+        app:showAsAction="always"
+        android:title="Bookmark" />
+
+    <item
+        android:id="@+id/report"
+
+        app:showAsAction="always"
+        android:title="Report" />
+
+
+    <item
+        android:id="@+id/delete_qp"
+        android:color="@color/red_real"
+        android:state_focused="true"
+        app:showAsAction="always"
+        android:title="Delete" />
+
+</menu>

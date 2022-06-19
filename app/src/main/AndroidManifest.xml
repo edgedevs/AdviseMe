@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.advisemetech.adviseme">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/advise_me_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/advise_me_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AdviseMe">
+        <activity android:name=".EditAnswer" />
+        <activity android:name=".ActivityResetPassword" />
+        <activity android:name=".PostActivity" />
+        <activity android:name=".AnswerActivity" />
+        <activity android:name=".ReplyActivity" />
+        <activity android:name=".YourQuestions" />
+        <activity android:name=".Related" />
+        <activity android:name=".AskActivity" />
+        <activity android:name=".CollapsingDemoActivity" />
+        <activity android:name=".MainActivityPager" />
+        <activity android:name=".CareerAdviceActivity" />
+       
+
+
+        <activity android:name=".FirstActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">  </activity>
+        <activity android:name=".ResultActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".TestMainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+
+
+
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".ImageActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".PrivacyActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".UpdateProfile"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".CreateProfile"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".Splashscreen"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

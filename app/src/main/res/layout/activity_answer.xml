@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".AskActivity">
+
+
+
+    <ImageView
+        android:id="@+id/image_Reply3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+
+        />
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        >
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:id="@+id/answer_et"
+            android:background="@drawable/custom_input_question"
+            android:textStyle="bold"
+            android:hint="write answer..."
+            android:textColorHint="@color/grey"
+            android:textColor="@android:color/black"
+
+            />
+
+        <ImageView
+            android:id="@+id/ans_attachment"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_attachment"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    <Button
+        android:text="Answer"
+        android:textColor="@android:color/white"
+        android:id="@+id/btn_answer_submit"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="180dp"
+        android:height="40dp"
+        android:shadowColor="@color/greenPrimary"
+        android:background="@drawable/rounded_btn"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="40dp"
+
+        />
+
+
+    <LinearLayout
+        android:id="@+id/edit_ans_linear_layout"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

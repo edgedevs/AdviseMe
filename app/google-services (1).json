@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "866320092503",
+    "firebase_url": "https://adviseme-3a26c-default-rtdb.firebaseio.com",
+    "project_id": "adviseme-3a26c",
+    "storage_bucket": "adviseme-3a26c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866320092503:android:560b4e2ec7d9a40d8b0212",
+        "android_client_info": {
+          "package_name": "com.advisemetech.adviseme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866320092503-r01haun7onfjqbt8a27panec6r6vikad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.advisemetech.adviseme",
+            "certificate_hash": "90effb4d35e8bed6e49af7997703a09dd4563c7a"
+          }
+        },
+        {
+          "client_id": "866320092503-84clehtg2f5qddl7u3975ctld5p20amb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA74HyviAV2Glm3Rl06EzRKBOG8WG-MZgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866320092503-84clehtg2f5qddl7u3975ctld5p20amb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
